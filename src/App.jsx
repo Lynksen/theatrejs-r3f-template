@@ -2,6 +2,8 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { Gltf, ScrollControls, useScroll } from "@react-three/drei";
 import { getProject, val } from "@theatre/core";
 import theatreState from "./theatreState.json";
+import studio from "@theatre/studio";
+import extension from "@theatre/r3f/dist/extension";
 
 import {
   SheetProvider,
@@ -10,6 +12,8 @@ import {
 } from "@theatre/r3f";
 
 export default function App() {
+  studio.initialize();
+  studio.extend(extension);
   const sheet = getProject("Fly Through", { state: theatreState }).sheet(
     "Scene"
   );
