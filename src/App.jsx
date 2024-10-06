@@ -19,7 +19,7 @@ export default function App() {
   );
 
   return (
-    <Canvas gl={{ preserveDrawingBuffer: true }}>
+    <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
       <ScrollControls pages={5}>
         <SheetProvider sheet={sheet}>
           <Scene />
