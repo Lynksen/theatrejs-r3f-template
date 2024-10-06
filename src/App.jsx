@@ -49,7 +49,7 @@ function Scene() {
       <fog attach="fog" color={bgColor} near={-4} far={10} />
       <ambientLight intensity={0.5} />
       <directionalLight position={[-5, 5, -5]} intensity={1.5} />
-      <Gltf src="/environment.glb" castShadow receiveShadow />
+      <Gltf src="/env2.glb" castShadow receiveShadow />
       <PerspectiveCamera
         theatreKey="Camera"
         makeDefault
