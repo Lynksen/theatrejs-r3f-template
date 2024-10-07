@@ -24,21 +24,3 @@ Create the build:
 ```
 yarn build
 ```
-
-## Credits
-
-- 3D model: [Low poly environment](https://sketchfab.com/3d-models/low-poly-environment-2e18c1baa9164093ad2e99e0a904363a) by [BigPo](https://sketchfab.com/BigPo)
-
-## Misc
-
-Follow Andrew Prifer: [Twitter](https://twitter.com/AndrewPrifer), [GitHub](https://github.com/AndrewPrifer)
-
-Follow Theatre.js: [Twitter](https://twitter.com/theatre_js), [GitHub](https://github.com/theatre-js/theatre)
-
-Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [GitHub](https://github.com/codrops), [Instagram](https://www.instagram.com/codropsss/)
-
-## License
-
-[MIT](LICENSE)
-
-Made with :blue_heart: by [Codrops](http://www.codrops.com)
