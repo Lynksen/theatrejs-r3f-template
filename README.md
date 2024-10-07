@@ -10,17 +10,17 @@ Display a 3D scene, and fly a camera through it as the user scrolls, using Theat
 Install dependencies:
 
 ```
-yarn
+npm i
 ```
 
 Compile the code for development and start a local server:
 
 ```
-yarn dev
+npm run dev
 ```
 
 Create the build:
 
 ```
-yarn build
+npm build
 ```
